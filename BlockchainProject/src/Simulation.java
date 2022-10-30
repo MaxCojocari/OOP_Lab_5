@@ -11,9 +11,9 @@ public class Simulation {
     static int maxNrVaults = 5; 
     static int maxAmountAssetsRand = 100000;
     static int maxAmountAssetsUser = 100000;
-    static int nrBlocks = 5;
-    static int poolSize = 10;
-    static int difficulty = 5;
+    static int nrBlocks = 3;
+    static int poolSize = 2;
+    static int difficulty = 2;
     
     protected static Random random = new Random(); 
     private static ArrayList<EOAccount> users = new ArrayList<EOAccount>();
@@ -43,6 +43,8 @@ public class Simulation {
             System.out.println(a.balanceETH + " ETH");
             System.out.println(a.balanceUSDT + " USDT");
         }
+
+        System.out.println("\n");
 
         while (k < nrBlocks * poolSize) {
             int option = random.nextInt(3);
