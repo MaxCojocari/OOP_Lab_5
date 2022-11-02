@@ -83,7 +83,7 @@ Sender:         0x842cf95578871bda37011e954f22bc89de847222
 Receiver:       0x9d7e3b52fdaa68f7a09e6fe54de3dba0133157e6
 Amount:         9210 USDT
 
-Amount USDT out (+ annual interest rate): 9214.605
+Amount USDT out (+ interest rate): 9214.605
 ------------------------------------------------------
 Amount USDT out: 7666.1
 SwapTx
@@ -100,7 +100,7 @@ Sender:         0x88b0760d27f8141bf27bcee3d1f3185ef524f8c2
 Receiver:       0x3944d188cfe38b2559ead1f04232326b2aabe04a
 Amount:         2760 USDT
 
-Amount USDT out (+ annual interest rate): 2761.3799999999997
+Amount USDT out (+ interest rate): 2761.3799999999997
 ------------------------------------------------------
 Block # 0
 PreviousHash:   null

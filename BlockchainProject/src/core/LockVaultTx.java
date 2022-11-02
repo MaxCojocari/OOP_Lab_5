@@ -57,7 +57,7 @@ public class LockVaultTx extends Transaction {
                     vault.sendUSDT(amountLocked.get(sender.address) * (1 + annualInterestRate), sender.address)
                 ) {
                     sender.receiveUSDT(amountLocked.get(sender.address) * (1 + annualInterestRate));
-                    System.out.println("Amount USDT out (+ annual interest rate): " + amountLocked.get(sender.address) * (1 + annualInterestRate));
+                    System.out.println("Amount USDT out (+ interest rate): " + amountLocked.get(sender.address) * (1 + annualInterestRate));
                 }
                 
                 
@@ -66,7 +66,7 @@ public class LockVaultTx extends Transaction {
                     vault.sendETH(amountLocked.get(sender.address) * (1 + annualInterestRate), sender.address)
                 ) {
                     sender.receiveETH(amountLocked.get(sender.address) * (1 + annualInterestRate));
-                    System.out.println("Amount ETH out (+ annual interest rate): " + amountLocked.get(sender.address) * (1 + annualInterestRate));
+                    System.out.println("Amount ETH out (+ interest rate): " + amountLocked.get(sender.address) * (1 + annualInterestRate));
                 }
 
             } else System.out.println("EARLY_WITHDRAWING" + "\n");
